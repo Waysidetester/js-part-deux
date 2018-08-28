@@ -15,14 +15,14 @@ if (age >= 21){
 
 
 
-const a = 1;
-const b = '1';
+// const a = 1;
+// const b = '1';
 
-a === b; //false
-a == b; //true
+// a === b; //false
+// a == b; //true
 
-a !== b; //true
-a!= b; //false
+// a !== b; //true
+// a!= b; //false
 
 const favoriteColor = 'blue';
 const favoriteAnimal = 'bear';
@@ -34,3 +34,19 @@ if (favoriteAnimal === 'bear' && favoriteColor === 'red'){
 } else {
     console.log('Go away');
 }
+
+const hiDiv = document.getElementById('hi');
+console.log(hiDiv);
+
+const pie = 'peach';
+
+console.log('Pie length: ', pie.length); // 5
+console.log('#3rd charachter: ', pie.charAt(2)); // a
+console.log('index of Cat:', pie.indexOf('cat')); // -1
+
+console.log('index of pea:', pie.indexOf('pea')); // 0
+
+const quote = 'Winter is coming';
+
+const newQuote = quote.replace(/is/g, 'ain\'t');
+console.log('newQuote:', newQuote);
